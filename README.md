@@ -26,7 +26,7 @@ year = {2016}
 * **Feature Extraction:** The feature extraction module is not included in this code. The current version of SparseProp supports only [C3D](http://vlg.cs.dartmouth.edu/c3d/) as video representation.
 
 # What SparseProp provides?
-* **[Pre-trained model]():** Class-Induced model trained using videos from Thumos14 validation subset. Videos are represented using [C3D](http://vlg.cs.dartmouth.edu/c3d/) features.
+* **[Pre-trained model](https://raw.githubusercontent.com/cabaf/sparseprop/master/data/class_induced_thumos14.pkl):** Class-Induced model trained using videos from Thumos14 validation subset. Videos are represented using [C3D](http://vlg.cs.dartmouth.edu/c3d/) features.
 
 * **Code for retrieving proposals in new videos:** Use the script ```retrieve_proposals.py``` to retrieve temporal segments in new videos. You will need to extract the C3D features by your own (Please read the ```sparseprop.feature``` for guidelines on how to format the C3D features.). 
 
