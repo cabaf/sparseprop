@@ -28,6 +28,8 @@ year = {2016}
 # What SparseProp provides?
 * **[Pre-trained model](https://raw.githubusercontent.com/cabaf/sparseprop/master/data/class_induced_thumos14.pkl):** Class-Induced model trained using videos from Thumos14 validation subset. Videos are represented using [C3D](http://vlg.cs.dartmouth.edu/c3d/) features.
 
+* **[Pre-computed action proposals](https://drive.google.com/open?id=0B9WpeMTDrC3fdWJjajhuODZXS3c):** The resulting temporal action proposals in the Thumos14 test set.
+
 * **Code for retrieving proposals in new videos:** Use the script ```retrieve_proposals.py``` to retrieve temporal segments in new videos. You will need to extract the C3D features by your own (Please read the ```sparseprop.feature``` for guidelines on how to format the C3D features.). 
 
 * **Code for training a new model:** Use the script ```run_train.py``` to train a model using a new dataset (or features). For further information, please read the documentation in the script.
