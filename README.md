@@ -51,7 +51,7 @@ The program above must generate a CSV (data/demo_proposals.csv) file containing 
 # Do you want to contribute?
 
 1. Check the open issues or open a new issue to start a discussion around your new idea or the bug you found
-2. For the repository and make your changes!
+2. Fork the repository and make your changes!
 3. Send a pull request
 
 
