@@ -41,6 +41,8 @@ SparseProp provides a demo that takes as input C3D features from a sample video 
 
 The program above must generate a CSV (data/demo_proposals.csv) file containing the temporal proposals retrieved with an asociated score for each.
 
+**Windows users**: Please be aware of (this issue)[https://github.com/cabaf/sparseprop/issues/3]
+
 # Who is behind it?
 
 | ![Fabian Caba Heilbron][image-cabaf] | ![Juan Carlos Niebles][image-jc] | ![Bernard Ghanem][image-bernard] |
