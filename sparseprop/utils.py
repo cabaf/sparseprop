@@ -20,7 +20,7 @@ def get_typical_durations(raw_durations, bandwidth_percentile=0.05,
     for idx in range(tw.shape[0]):
         p[:, idx] = (dur/tw[idx]).reshape(p[:,idx].shape[0])
     ll = (p>=min_intersection) & (p<=1.0/min_intersection)
-    if (ll.sum(axis=1)>0).sum() / float(df.shape[0]) < (1.0-miss_covered):
+    if (ll.sum(axis=1)>0).sum() / float(raw_durations.shape[0]) < (1.0-miss_covered):
         assert False, "Condition of minimum intersection not satisfied"
     return tw
 
