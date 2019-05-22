@@ -1,4 +1,5 @@
-# SparseProp: Temporal Proposals for Activity Detection.
+#
+SparseProp: Temporal Proposals for Activity Detection.
 
 This project hosts code for the framework introduced in the paper: **[Fast Temporal Activity Proposals for Efficient Detection of Human Actions in Untrimmed Videos](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Heilbron_Fast_Temporal_Activity_CVPR_2016_paper.pdf)**
 
@@ -13,7 +14,6 @@ If you find this code useful in your research, please cite:
 author = {Caba Heilbron, Fabian and Niebles, Juan Carlos and Ghanem, Bernard},
 title = {Fast Temporal Activity Proposals for Efficient Detection of Human Actions in Untrimmed Videos},
 booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-month = {June},
 year = {2016}
 }
 ```
